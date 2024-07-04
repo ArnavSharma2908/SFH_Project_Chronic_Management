@@ -1,0 +1,492 @@
+{
+    "diabetes": [
+        "a chronic condition that affects how your body turns food into energy, characterized by high blood sugar levels.",
+        "manage through a combination of lifestyle changes (healthy diet, regular exercise), blood sugar monitoring, and education about the disease.",
+        "medications include insulin, metformin, sulfonylureas, and sglt2 inhibitors."
+    ],
+    "alzheimer's": [
+        "a progressive disease that destroys memory and other important mental functions.",
+        "manage through cognitive therapies, supportive care, and creating a safe environment.",
+        "medications include cholinesterase inhibitors and memantine."
+    ],
+    "dementia": [
+        "a group of thinking and social symptoms that interferes with daily functioning.",
+        "manage through cognitive therapies, supportive care, and creating a safe environment.",
+        "medications include cholinesterase inhibitors and memantine."
+    ],
+    "arthritis": [
+        "inflammation of one or more of your joints, causing pain and stiffness.",
+        "manage through physical therapy, lifestyle changes, and pain management strategies.",
+        "medications include nsaids, corticosteroids, and dmards."
+    ],
+    "heart": [
+        "a range of conditions that affect your heart, including blood vessel diseases, heart rhythm problems, and heart defects.",
+        "manage through lifestyle changes (diet, exercise), regular check-ups, and stress management.",
+        "medications include statins, beta blockers, and ace inhibitors."
+    ],
+    "asthma": [
+        "a condition in which your airways narrow and swell and may produce extra mucus.",
+        "manage through avoiding triggers, regular monitoring, and using a prescribed action plan.",
+        "medications include inhaled corticosteroids, leukotriene modifiers, and beta agonists."
+    ],
+    "obesity": [
+        "a complex disease involving an excessive amount of body fat.",
+        "manage through lifestyle changes (diet, exercise), behavioral therapies, and possibly surgery.",
+        "medications include orlistat, phentermine, and liraglutide."
+    ],
+    "pneumonia": [
+        "a lung infection that is long-lasting or recurrent.",
+        "manage through appropriate antibiotic treatment, supportive care, and possibly hospitalization.",
+        "medications include antibiotics, antivirals, and antifungals."
+    ],
+    "hypertension": [
+        "a condition where the force of the blood against your artery walls is too high, which can lead to heart disease and stroke.",
+        "manage through lifestyle changes (diet, exercise, reducing salt intake), regular blood pressure monitoring, and stress management.",
+        "medications include ace inhibitors, beta blockers, and diuretics."
+    ],
+    "renal disorder": [
+        "a condition affecting the kidneys' ability to filter waste from the blood properly.",
+        "manage through diet modifications, regular monitoring, and possibly dialysis or transplant.",
+        "medications include ace inhibitors, arbs, and diuretics."
+    ],
+    "epilepsy": [
+        "a neurological disorder marked by sudden recurrent episodes of sensory disturbance, loss of consciousness, or convulsions.",
+        "manage through avoiding triggers, regular medication, and possibly surgery.",
+        "medications include antiepileptic drugs (aeds) like valproate, carbamazepine, and lamotrigine."
+    ],
+    "hiv": [
+        "a virus that attacks the body's immune system and can lead to aids if not treated.",
+        "manage through regular antiretroviral therapy (art), healthy lifestyle, and regular medical check-ups.",
+        "medications include antiretroviral drugs like tenofovir, emtricitabine, and efavirenz."
+    ],
+    "aids": [
+        "a severe stage of hiv infection that occurs when the immune system is badly damaged.",
+        "manage through regular antiretroviral therapy (art), treating opportunistic infections, and supportive care.",
+        "medications include antiretroviral drugs and treatments for opportunistic infections."
+    ],
+    "lupus": [
+        "a systemic autoimmune disease that occurs when your body's immune system attacks your own tissues and organs.",
+        "manage through regular monitoring, healthy lifestyle, and avoiding triggers.",
+        "medications include nsaids, corticosteroids, and immunosuppressants."
+    ],
+    "glaucoma": [
+        "a group of eye conditions that damage the optic nerve, which is essential for good vision.",
+        "manage through regular eye exams, prescription eye drops, and possibly surgery.",
+        "medications include prostaglandin analogs, beta blockers, and alpha agonists."
+    ],
+    "cancer": [
+        "a disease in which abnormal cells divide uncontrollably and destroy body tissue.",
+        "manage through surgery, chemotherapy, radiation therapy, and supportive care.",
+        "medications include chemotherapy drugs, targeted therapy, and immunotherapy."
+    ],
+    "glioblastoma": [
+        "an aggressive type of cancer that can occur in the brain or spinal cord.",
+        "manage through surgery, radiation, and chemotherapy.",
+        "medications include temozolomide, bevacizumab, and other chemotherapy drugs."
+    ],
+    "crohn's disease": [
+        "a chronic inflammatory bowel disease that affects the lining of the digestive tract.",
+        "manage through diet changes, medication, and possibly surgery.",
+        "medications include anti-inflammatory drugs, immune system suppressors, and antibiotics."
+    ],
+    "ulcerative colitis": [
+        "a chronic inflammatory bowel disease that causes inflammation in the digestive tract.",
+        "manage through diet changes, medication, and possibly surgery.",
+        "medications include anti-inflammatory drugs, immune system suppressors, and antibiotics."
+    ],
+    "multiple sclerosis": [
+        "a disease in which the immune system eats away at the protective covering of nerves.",
+        "manage through physical therapy, medication, and lifestyle changes.",
+        "medications include corticosteroids and disease-modifying therapies."
+    ],
+    "parkinson's": [
+        "a progressive nervous system disorder that affects movement.",
+        "manage through physical therapy, medication, and sometimes surgery.",
+        "medications include levodopa, dopamine agonists, and maob inhibitors."
+    ],
+    "chronic fatigue syndrome": [
+        "a disorder characterized by extreme fatigue that can't be explained by any underlying medical condition.",
+        "manage through lifestyle changes, cognitive therapy, and medication.",
+        "medications include antidepressants, sleep aids, and pain relievers."
+    ],
+    "fibromyalgia": [
+        "a disorder characterized by widespread musculoskeletal pain accompanied by fatigue, sleep, memory, and mood issues.",
+        "manage through physical therapy, stress management, and medication.",
+        "medications include pain relievers, antidepressants, and anti-seizure drugs."
+    ],
+    "psoriasis": [
+        "a condition in which skin cells build up and form scales and itchy, dry patches.",
+        "manage through topical treatments, light therapy, and medication.",
+        "medications include topical corticosteroids, retinoids, and biologics."
+    ],
+    "eczema": [
+        "a condition that makes your skin red and itchy.",
+        "manage through moisturizers, avoiding triggers, and medication.",
+        "medications include topical corticosteroids, antihistamines, and immunosuppressants."
+    ],
+    "chronic obstructive pulmonary disease (copd)": [
+        "a group of lung diseases that block airflow and make it difficult to breathe.",
+        "manage through quitting smoking, pulmonary rehabilitation, and medication.",
+        "medications include bronchodilators, inhaled steroids, and antibiotics."
+    ],
+    "sleep apnea": [
+        "a potentially serious sleep disorder in which breathing repeatedly stops and starts.",
+        "manage through weight loss, breathing devices, and sometimes surgery.",
+        "medications include stimulants and anti-seizure drugs."
+    ],
+    "chronic kidney disease": [
+        "a long-term condition where the kidneys don't work as well as they should.",
+        "manage through diet modifications, regular monitoring, and possibly dialysis or transplant.",
+        "medications include ace inhibitors, arbs, and diuretics."
+    ],
+    "thyroid disease": [
+        "a disorder that affects the thyroid gland, causing it to produce too much or too little thyroid hormone.",
+        "manage through medication, lifestyle changes, and sometimes surgery.",
+        "medications include levothyroxine, methimazole, and beta blockers."
+    ],
+    "gout": [
+        "a form of arthritis characterized by severe pain, redness, and tenderness in joints.",
+        "manage through diet changes, avoiding triggers, and medication.",
+        "medications include nsaids, colchicine, and corticosteroids."
+    ],
+    "irritable bowel syndrome (ibs)": [
+        "a common disorder that affects the large intestine.",
+        "manage through diet changes, stress management, and medication.",
+        "medications include fiber supplements, laxatives, and antispasmodics."
+    ],
+    "polycystic ovary syndrome (pcos)": [
+        "a hormonal disorder common among women of reproductive age.",
+        "manage through lifestyle changes, medication, and sometimes surgery.",
+        "medications include birth control pills, metformin, and anti-androgens."
+    ],
+    "hepatitis": [
+        "an inflammation of the liver, commonly caused by a viral infection.",
+        "manage through antiviral medication, lifestyle changes, and sometimes surgery.",
+        "medications include antiviral drugs, interferons, and immunosuppressants."
+    ],
+    "chronic pancreatitis": [
+        "long-standing inflammation of the pancreas that alters its normal structure and functions.",
+        "manage through lifestyle changes, pain management, and enzyme supplements.",
+        "medications include pain relievers, enzyme supplements, and insulin."
+    ],
+    "migraine": [
+        "a headache of varying intensity, often accompanied by nausea and sensitivity to light and sound.",
+        "manage through avoiding triggers, lifestyle changes, and medication.",
+        "medications include triptans, anti-nausea drugs, and pain relievers."
+    ],
+    "systemic sclerosis (scleroderma)": [
+        "a group of rare diseases that involve the hardening and tightening of the skin and connective tissues.",
+        "manage through physical therapy, medication, and supportive care.",
+        "medications include immunosuppressants, vasodilators, and anti-fibrotic agents."
+    ],
+    "amyotrophic lateral sclerosis (als)": [
+        "a progressive neurodegenerative disease that affects nerve cells in the brain and the spinal cord.",
+        "manage through supportive care, physical therapy, and medication.",
+        "medications include riluzole, edaravone, and muscle relaxants."
+    ],
+    "anemia": [
+        "a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues.",
+        "manage through dietary changes, supplements, and medication.",
+        "medications include iron supplements, vitamin b12 injections, and erythropoiesis-stimulating agents."
+    ],
+    "hemophilia": [
+        "a rare disorder in which your blood doesn't clot normally because it lacks sufficient blood-clotting proteins.",
+        "manage through regular replacement of the specific clotting factor that's reduced.",
+        "medications include clotting factor concentrates and desmopressin."
+    ],
+    "thalassemia": [
+        "an inherited blood disorder that causes your body to have less hemoglobin than normal.",
+        "manage through regular blood transfusions and chelation therapy.",
+        "medications include folic acid supplements and iron chelators."
+    ],
+    "cystic fibrosis": [
+        "an inherited disorder that causes severe damage to the lungs, digestive system, and other organs.",
+        "manage through airway clearance techniques, nutrition, and medication.",
+        "medications include antibiotics, mucus-thinning drugs, and bronchodilators."
+    ],
+    "sickle cell disease": [
+        "a group of inherited red blood cell disorders.",
+        "manage through regular health maintenance, pain management, and medication.",
+        "medications include hydroxyurea, pain relievers, and blood transfusions."
+    ],
+    "sarcoidosis": [
+        "an inflammatory disease that affects multiple organs in the body, but mostly the lungs and lymph glands.",
+        "manage through regular monitoring, medication, and lifestyle changes.",
+        "medications include corticosteroids, immunosuppressants, and antimalarial drugs."
+    ],
+    "addison's disease": [
+        "a disorder in which the adrenal glands don't produce enough hormones.",
+        "manage through hormone replacement therapy, diet changes, and regular monitoring.",
+        "medications include corticosteroids and hormone replacement drugs."
+    ],
+    "cushing's syndrome": [
+        "a condition that occurs from exposure to high cortisol levels for a long time.",
+        "manage through reducing corticosteroid use, surgery, and medication.",
+        "medications include ketoconazole, mitotane, and metyrapone."
+    ],
+    "graves' disease": [
+        "an immune system disorder that results in the overproduction of thyroid hormones.",
+        "manage through medication, radioactive iodine therapy, and sometimes surgery.",
+        "medications include antithyroid drugs, beta blockers, and radioactive iodine."
+    ],
+    "hyperthyroidism": [
+        "a condition in which your thyroid gland produces too much of the hormone thyroxine.",
+        "manage through medication, radioactive iodine, and sometimes surgery.",
+        "medications include methimazole, propylthiouracil, and beta blockers."
+    ],
+    "hypothyroidism": [
+        "a condition in which your thyroid gland doesn't produce enough of certain crucial hormones.",
+        "manage through hormone replacement therapy, diet changes, and regular monitoring.",
+        "medications include levothyroxine."
+    ],
+    "lyme disease": [
+        "an infectious disease caused by bacteria of the borrelia type which is spread by ticks.",
+        "manage through antibiotics, symptom management, and lifestyle changes.",
+        "medications include doxycycline, amoxicillin, and cefuroxime axetil."
+    ],
+    "chronic lyme disease": [
+        "a term used to describe patients with persistent symptoms of lyme disease.",
+        "manage through long-term antibiotic treatment, symptom management, and lifestyle changes.",
+        "medications include antibiotics and pain relievers."
+    ],
+    "chronic sinusitis": [
+        "a condition in which the cavities around nasal passages (sinuses) become inflamed and swollen for at least 12 weeks.",
+        "manage through nasal irrigation, corticosteroids, and sometimes surgery.",
+        "medications include nasal corticosteroids, decongestants, and antibiotics."
+    ],
+    "chronic hives": [
+        "a condition where hives (welts on the skin) last for more than six weeks.",
+        "manage through avoiding triggers, antihistamines, and other medications.",
+        "medications include antihistamines, corticosteroids, and omalizumab."
+    ],
+    "chronic pain": [
+        "pain that lasts for a long time (months or years) and is resistant to most medical treatments.",
+        "manage through physical therapy, pain management strategies, and medication.",
+        "medications include pain relievers, antidepressants, and anticonvulsants."
+    ],
+    "chronic fatigue": [
+        "a condition characterized by extreme, long-lasting fatigue that is not relieved by rest and is not directly caused by other medical conditions.",
+        "manage through lifestyle changes, cognitive therapy, and medication.",
+        "medications include antidepressants, sleep aids, and pain relievers."
+    ],
+    "chronic headache": [
+        "a condition where you experience headaches for 15 or more days a month.",
+        "manage through lifestyle changes, avoiding triggers, and medication.",
+        "medications include triptans, antidepressants, and beta blockers."
+    ],
+    "osteoporosis": [
+        "a condition in which bones become weak and brittle.",
+        "manage through diet changes, exercise, and medication.",
+        "medications include bisphosphonates, hormone therapy, and calcium supplements."
+    ],
+    "chronic venous insufficiency": [
+        "a condition that occurs when the venous wall and/or valves in the leg veins are not working effectively, making it difficult for blood to return to the heart.",
+        "manage through compression stockings, lifestyle changes, and sometimes surgery.",
+        "medications include diuretics, blood thinners, and pentoxifylline."
+    ],
+    "peripheral artery disease": [
+        "a common circulatory problem in which narrowed arteries reduce blood flow to your limbs.",
+        "manage through lifestyle changes, medication, and sometimes surgery.",
+        "medications include cholesterol-lowering drugs, blood pressure medications, and blood thinners."
+    ],
+    "liver cirrhosis": [
+        "a late stage of scarring (fibrosis) of the liver caused by many forms of liver diseases and conditions, such as hepatitis and chronic alcoholism.",
+        "manage through lifestyle changes, treating underlying conditions, and sometimes liver transplant.",
+        "medications include antiviral drugs, antibiotics, and diuretics."
+    ],
+    "pulmonary fibrosis": [
+        "a lung disease that occurs when lung tissue becomes damaged and scarred.",
+        "manage through medication, oxygen therapy, and sometimes lung transplant.",
+        "medications include pirfenidone, nintedanib, and corticosteroids."
+    ],
+    "chronic gastritis": [
+        "a condition in which the stomach lining is inflamed over a long period of time.",
+        "manage through diet changes, avoiding irritants, and medication.",
+        "medications include antacids, proton pump inhibitors, and antibiotics."
+    ],
+    "peptic ulcer disease": [
+        "a condition in which open sores develop on the inside lining of your stomach and the upper portion of your small intestine.",
+        "manage through lifestyle changes, avoiding irritants, and medication.",
+        "medications include antacids, proton pump inhibitors, and antibiotics."
+    ],
+    "gastroesophageal reflux disease (gerd)": [
+        "a digestive disorder that affects the lower esophageal sphincter.",
+        "manage through diet changes, avoiding irritants, and medication.",
+        "medications include antacids, proton pump inhibitors, and h2 receptor blockers."
+    ],
+    "chronic bronchitis": [
+        "a long-term inflammation of the bronchi in the lungs.",
+        "manage through quitting smoking, pulmonary rehabilitation, and medication.",
+        "medications include bronchodilators, inhaled steroids, and antibiotics."
+    ],
+    "emphysema": [
+        "a condition in which the air sacs of the lungs are damaged and enlarged, causing breathlessness.",
+        "manage through quitting smoking, pulmonary rehabilitation, and medication.",
+        "medications include bronchodilators, inhaled steroids, and antibiotics."
+    ],
+    "asbestosis": [
+        "a chronic lung disease caused by inhaling asbestos fibers.",
+        "manage through supportive care, pulmonary rehabilitation, and avoiding further exposure.",
+        "medications include bronchodilators, inhaled steroids, and oxygen therapy."
+    ],
+    "mesothelioma": [
+        "a type of cancer that occurs in the thin layer of tissue that covers the majority of your internal organs (mesothelium).",
+        "manage through surgery, chemotherapy, radiation therapy, and supportive care.",
+        "medications include chemotherapy drugs, targeted therapy, and immunotherapy."
+    ],
+    "systemic lupus erythematosus": [
+        "an autoimmune disease that occurs when your body's immune system attacks your own tissues and organs.",
+        "manage through regular monitoring, healthy lifestyle, and avoiding triggers.",
+        "medications include nsaids, corticosteroids, and immunosuppressants."
+    ],
+    "sjogren's syndrome": [
+        "an immune system disorder characterized by dry eyes and dry mouth.",
+        "manage through artificial tears, saliva substitutes, and medication.",
+        "medications include immunosuppressants, corticosteroids, and cholinergic agents."
+    ],
+    "raynaud's disease": [
+        "a condition in which some areas of the body feel numb and cool in certain circumstances.",
+        "manage through avoiding triggers, lifestyle changes, and medication.",
+        "medications include calcium channel blockers, alpha blockers, and vasodilators."
+    ],
+    "polymyalgia rheumatica": [
+        "an inflammatory disorder causing muscle pain and stiffness around the shoulders and hips.",
+        "manage through medication and physical therapy.",
+        "medications include corticosteroids and immunosuppressants."
+    ],
+    "giant cell arteritis": [
+        "an inflammation of the lining of your arteries.",
+        "manage through medication and regular monitoring.",
+        "medications include corticosteroids and immunosuppressants."
+    ],
+    "myasthenia gravis": [
+        "a chronic autoimmune, neuromuscular disease that causes weakness in the skeletal muscles.",
+        "manage through medication, lifestyle changes, and sometimes surgery.",
+        "medications include anticholinesterase medications, corticosteroids, and immunosuppressants."
+    ],
+    "chronic glomerulonephritis": [
+        "a disease that damages the glomeruli, the tiny filtering units inside your kidneys.",
+        "manage through medication, lifestyle changes, and possibly dialysis or transplant.",
+        "medications include blood pressure drugs, diuretics, and immunosuppressants."
+    ],
+    "chronic endometriosis": [
+        "a disorder in which tissue similar to the tissue that normally lines the inside of your uterus grows outside your uterus.",
+        "manage through pain management, hormone therapy, and sometimes surgery.",
+        "medications include pain relievers, hormone therapy, and contraceptives."
+    ],
+    "chronic prostatitis": [
+        "a condition that causes swelling and inflammation of the prostate gland.",
+        "manage through medication, lifestyle changes, and sometimes surgery.",
+        "medications include antibiotics, alpha blockers, and anti-inflammatory agents."
+    ],
+    "chronic pelvic pain syndrome": [
+        "a condition in which men have chronic pain in the pelvis that isn't caused by an infection or another obvious problem.",
+        "manage through pain management, physical therapy, and medication.",
+        "medications include pain relievers, alpha blockers, and muscle relaxants."
+    ],
+    "chronic mastitis": [
+        "a condition that causes chronic inflammation of the breast tissue.",
+        "manage through antibiotics, pain management, and sometimes surgery.",
+        "medications include antibiotics, pain relievers, and anti-inflammatory agents."
+    ],
+    "chronic hepatitis b": [
+        "a long-term infection of the liver caused by the hepatitis b virus.",
+        "manage through antiviral medication, regular monitoring, and lifestyle changes.",
+        "medications include antiviral drugs like tenofovir and entecavir."
+    ],
+    "chronic hepatitis c": [
+        "a long-term infection of the liver caused by the hepatitis c virus.",
+        "manage through antiviral medication, regular monitoring, and lifestyle changes.",
+        "medications include antiviral drugs like sofosbuvir and ledipasvir."
+    ],
+    "chronic liver disease": [
+        "a broad term that encompasses various diseases of the liver, such as hepatitis, cirrhosis, and fatty liver disease.",
+        "manage through lifestyle changes, treating underlying conditions, and sometimes liver transplant.",
+        "medications include antiviral drugs, antibiotics, and diuretics."
+    ],
+    "chronic pancreatitis": [
+        "long-standing inflammation of the pancreas that alters its normal structure and functions.",
+        "manage through lifestyle changes, pain management, and enzyme supplements.",
+        "medications include pain relievers, enzyme supplements, and insulin."
+    ],
+    "chronic pyelonephritis": [
+        "a long-standing infection of the kidneys that can cause scarring and impaired kidney function.",
+        "manage through antibiotics, lifestyle changes, and regular monitoring.",
+        "medications include antibiotics and pain relievers."
+    ],
+    "chronic sinusitis": [
+        "a condition in which the cavities around nasal passages (sinuses) become inflamed and swollen for at least 12 weeks.",
+        "manage through nasal irrigation, corticosteroids, and sometimes surgery.",
+        "medications include nasal corticosteroids, decongestants, and antibiotics."
+    ],
+    "chronic tonsillitis": [
+        "a long-term inflammation of the tonsils.",
+        "manage through antibiotics, pain management, and sometimes surgery.",
+        "medications include antibiotics, pain relievers, and anti-inflammatory agents."
+    ],
+    "chronic urticaria": [
+        "a condition where hives (welts on the skin) last for more than six weeks.",
+        "manage through avoiding triggers, antihistamines, and other medications.",
+        "medications include antihistamines, corticosteroids, and omalizumab."
+    ],
+    "chronic bronchitis": [
+        "a long-term inflammation of the bronchi in the lungs.",
+        "manage through quitting smoking, pulmonary rehabilitation, and medication.",
+        "medications include bronchodilators, inhaled steroids, and antibiotics."
+    ],
+    "emphysema": [
+        "a condition in which the air sacs of the lungs are damaged and enlarged, causing breathlessness.",
+        "manage through quitting smoking, pulmonary rehabilitation, and medication.",
+        "medications include bronchodilators, inhaled steroids, and antibiotics."
+    ],
+    "bronchiectasis": [
+        "a condition in which the lungs' airways become damaged, making it hard to clear mucus.",
+        "manage through airway clearance techniques, antibiotics, and sometimes surgery.",
+        "medications include antibiotics, bronchodilators, and expectorants."
+    ],
+    "interstitial lung disease": [
+        "a group of diseases that cause scarring (fibrosis) of the lungs.",
+        "manage through medication, oxygen therapy, and sometimes lung transplant.",
+        "medications include corticosteroids, immunosuppressants, and antifibrotics."
+    ],
+    "pulmonary hypertension": [
+        "a type of high blood pressure that affects the arteries in the lungs and the right side of the heart.",
+        "manage through lifestyle changes, medication, and sometimes surgery.",
+        "medications include vasodilators, endothelin receptor antagonists, and phosphodiesterase inhibitors."
+    ],
+    "chronic heart failure": [
+        "a condition in which the heart can't pump enough blood to meet the body's needs.",
+        "manage through lifestyle changes, medication, and sometimes surgery.",
+        "medications include ace inhibitors, beta blockers, and diuretics."
+    ],
+    "chronic mitral regurgitation": [
+        "a condition in which the heart's mitral valve doesn't close tightly, allowing blood to flow backward in the heart.",
+        "manage through lifestyle changes, medication, and sometimes surgery.",
+        "medications include ace inhibitors, beta blockers, and diuretics."
+    ],
+    "chronic aortic regurgitation": [
+        "a condition in which the heart's aortic valve doesn't close tightly, allowing blood to flow backward in the heart.",
+        "manage through lifestyle changes, medication, and sometimes surgery.",
+        "medications include ace inhibitors, beta blockers, and diuretics."
+    ],
+    "chronic tricuspid regurgitation": [
+        "a condition in which the heart's tricuspid valve doesn't close tightly, allowing blood to flow backward in the heart.",
+        "manage through lifestyle changes, medication, and sometimes surgery.",
+        "medications include ace inhibitors, beta blockers, and diuretics."
+    ],
+    "chronic aortic stenosis": [
+        "a condition in which the heart's aortic valve narrows, reducing blood flow from the heart.",
+        "manage through lifestyle changes, medication, and sometimes surgery.",
+        "medications include statins, ace inhibitors, and beta blockers."
+    ],
+    "chronic mitral stenosis": [
+        "a condition in which the heart's mitral valve narrows, reducing blood flow from the heart.",
+        "manage through lifestyle changes, medication, and sometimes surgery.",
+        "medications include beta blockers, calcium channel blockers, and diuretics."
+    ],
+    "chronic tricuspid stenosis": [
+        "a condition in which the heart's tricuspid valve narrows, reducing blood flow from the heart.",
+        "manage through lifestyle changes, medication, and sometimes surgery.",
+        "medications include diuretics and vasodilators."
+    ]
+}

@@ -1,10 +1,11 @@
 import datetime
 import pickle
 from twilio.rest import Client
+import keys
 
 # Twilio credentials
-account_sid = 'AC7572309f88cf990986aed84455684634'
-auth_token = 'b45d1d9721a3ec19b0ea05af8b1921e5'
+account_sid = keys.twilio_account_sid
+auth_token = keys.twilio_auth_token
 client = Client(account_sid, auth_token)
 
 # Load existing reminders from file

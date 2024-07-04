@@ -96,14 +96,14 @@ def thread():
                 for j in i[0]:
                     x=datetime.datetime.now()
                     delta=j-datetime.datetime(x.year,x.month,x.day,x.hour,x.minute)
-                    print(str(delta))
+                    #print(str(delta))
                     if delta.seconds==0 and delta.days==0:
                         message.send_twilio_msg('+919311775381',i[1])
                         print("Reminder sent just now:",i[1])
                         sleep(60)
         sleep(1)
 trd = threading.Thread(target=thread)
-#trd.start()
+trd.start()
 
 while True:
     
