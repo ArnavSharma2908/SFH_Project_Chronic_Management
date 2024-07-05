@@ -10,23 +10,26 @@ with open('diseases-data.txt') as f:
 
 
 def get_weather_response(user_input):
-    api_key = keys.open_weather_api
-    base_url = "http://api.openweathermap.org/data/2.5/weather?"
-    city_name = user_input
-    complete_url = base_url + "q=" + city_name + "&appid=" + api_key
-    response = requests.get(complete_url)
-    x = response.json()
-             
-    if x["cod"] != "404":
-        y = x["main"]
-        current_temperature = round(y["temp"]-273.15,3)
-        current_pressure = y["pressure"]
-        current_humidiy = y["humidity"]
-        z = x["weather"]
-        weather_description = z[0]["description"]
-        return " Temperature = " +str(current_temperature)+"Celsius"+"\n atmospheric pressure (in hPa unit) ="+str(current_pressure) +"\n humidity (in percentage) = " +str(current_humidiy) +"\n description = " +str(weather_description)
-    else:
-        return " City Not Found "
+    try:
+        api_key = keys.open_weather_api
+        base_url = "http://api.openweathermap.org/data/2.5/weather?"
+        city_name = user_input
+        complete_url = base_url + "q=" + city_name + "&appid=" + api_key
+        response = requests.get(complete_url)
+        x = response.json()
+                 
+        if x["cod"] != "404":
+            y = x["main"]
+            current_temperature = round(y["temp"]-273.15,3)
+            current_pressure = y["pressure"]
+            current_humidiy = y["humidity"]
+            z = x["weather"]
+            weather_description = z[0]["description"]
+            return " Temperature = " +str(current_temperature)+"Celsius"+"\n atmospheric pressure (in hPa unit) ="+str(current_pressure) +"\n humidity (in percentage) = " +str(current_humidiy) +"\n description = " +str(weather_description)
+        else:
+            return " City Not Found "
+    except Exception as e:
+        return 'Invalid API key cannot connect'
 
 class Noter:
     def __init__(self, filename='notes.pkl'):

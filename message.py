@@ -19,12 +19,15 @@ def send_twilio_msg(to_phone, message_body):
     from_phone = '+13307526641'  # Twilio phone number
 
     # Sending the message
-    message = client.messages.create(
-        body=message_body,
-        from_=from_phone,
-        to=to_phone
-    )
-    return f"Message sent with SID: {message.sid}"
+    try:
+        message = client.messages.create(
+            body=message_body,
+            from_=from_phone,
+            to=to_phone
+            )
+        return f"Message sent with SID: {message.sid}"
+    except Exception as e:
+        return 'Was unable to send message\n'+str(e)
 
 def generate_reminder_times(times_in_hhmm, days, till_date, message):
     # Ensure times are in string format
