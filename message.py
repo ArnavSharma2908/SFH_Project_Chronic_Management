@@ -113,4 +113,3 @@ def generate_reminder_times(times_in_hhmm, days, till_date, message):
     with open('reminder.dat','wb') as f:
         pickle.dump(data,f)
     return data[-1]
-

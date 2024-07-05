@@ -168,8 +168,3 @@ def get_response(user_input):
         
     else:
         return ''
-    
-
-
-
-
