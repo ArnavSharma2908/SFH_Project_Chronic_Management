@@ -124,7 +124,7 @@
         "manage through moisturizers, avoiding triggers, and medication.",
         "medications include topical corticosteroids, antihistamines, and immunosuppressants."
     ],
-    "chronic obstructive pulmonary disease (copd)": [
+    "copd": [
         "a group of lung diseases that block airflow and make it difficult to breathe.",
         "manage through quitting smoking, pulmonary rehabilitation, and medication.",
         "medications include bronchodilators, inhaled steroids, and antibiotics."
@@ -134,12 +134,12 @@
         "manage through weight loss, breathing devices, and sometimes surgery.",
         "medications include stimulants and anti-seizure drugs."
     ],
-    "chronic kidney disease": [
+    "kidney": [
         "a long-term condition where the kidneys don't work as well as they should.",
         "manage through diet modifications, regular monitoring, and possibly dialysis or transplant.",
         "medications include ace inhibitors, arbs, and diuretics."
     ],
-    "thyroid disease": [
+    "thyroid": [
         "a disorder that affects the thyroid gland, causing it to produce too much or too little thyroid hormone.",
         "manage through medication, lifestyle changes, and sometimes surgery.",
         "medications include levothyroxine, methimazole, and beta blockers."
@@ -149,7 +149,7 @@
         "manage through diet changes, avoiding triggers, and medication.",
         "medications include nsaids, colchicine, and corticosteroids."
     ],
-    "irritable bowel syndrome (ibs)": [
+    "ibs": [
         "a common disorder that affects the large intestine.",
         "manage through diet changes, stress management, and medication.",
         "medications include fiber supplements, laxatives, and antispasmodics."
@@ -164,7 +164,7 @@
         "manage through antiviral medication, lifestyle changes, and sometimes surgery.",
         "medications include antiviral drugs, interferons, and immunosuppressants."
     ],
-    "chronic pancreatitis": [
+    "pancreatitis": [
         "long-standing inflammation of the pancreas that alters its normal structure and functions.",
         "manage through lifestyle changes, pain management, and enzyme supplements.",
         "medications include pain relievers, enzyme supplements, and insulin."
@@ -249,7 +249,7 @@
         "manage through long-term antibiotic treatment, symptom management, and lifestyle changes.",
         "medications include antibiotics and pain relievers."
     ],
-    "chronic sinusitis": [
+    "sinusitis": [
         "a condition in which the cavities around nasal passages (sinuses) become inflamed and swollen for at least 12 weeks.",
         "manage through nasal irrigation, corticosteroids, and sometimes surgery.",
         "medications include nasal corticosteroids, decongestants, and antibiotics."

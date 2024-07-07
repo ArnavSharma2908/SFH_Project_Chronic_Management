@@ -15,6 +15,15 @@ def log_message(message):
         conn = mysql.connector.connect(**db_config)
         cursor = conn.cursor()
 
+        # Check if the table exists and create it if it doesn't
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS logs (
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                message TEXT NOT NULL,
+                timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+
         # Insert the message and current timestamp
         query = "INSERT INTO logs (message) VALUES (%s)"
         cursor.execute(query, (message,))
@@ -28,3 +37,4 @@ def log_message(message):
 
     except mysql.connector.Error as err:
         print(f"Error: {err}")
+
